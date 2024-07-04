@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: black;
+    margin: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255,0,0);
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(255,0,0);
+}
+
+.chamada {
+    background: rgb(141, 113, 165);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.gameplay-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.gameplay {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+ 
+}
+
+.gameplay-videos img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.gameplay-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.gameplay h2 {
+    color: rgb(197, 25, 25);
+}
